@@ -1,0 +1,21 @@
+{
+    "name": "Forbidden Developers",
+    "short_name": "ForbiddenDev",
+    "description": "Premium web & mobile development studio - Building exceptional digital products",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#030014",
+    "theme_color": "#030014",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/vite.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["business", "productivity", "utilities"],
+    "prefer_related_applications": false,
+    "screenshots": []
+}
