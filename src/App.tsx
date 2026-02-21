@@ -162,7 +162,7 @@ const PageLayout = ({ children }: { children: React.ReactNode }) => (
 function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <ScrollToTop />
         <MaintenanceWrapper>
           <div className="min-h-screen overflow-x-hidden transition-colors duration-300">
