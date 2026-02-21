@@ -130,7 +130,6 @@ const AdminDashboard = () => {
 
             if (res.ok) {
                 fetchData()
-                setShowModal(false)
             }
         } catch (error) {
             console.error('Error deleting item:', error)

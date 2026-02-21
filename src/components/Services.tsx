@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { Code, Smartphone, Brain, Palette, Server, Rocket, ArrowUpRight, LucideIcon } from 'lucide-react'
+import { Code, Smartphone, Brain, Palette, Server, Rocket, ArrowUpRight, type LucideIcon } from 'lucide-react'
 import { useTheme } from '../context/ThemeContext'
 import { contentApi } from '../lib/api'
 

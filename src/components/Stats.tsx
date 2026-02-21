@@ -1,6 +1,6 @@
 import { useRef, useEffect, useState } from 'react'
 import { motion, useInView, useSpring, useTransform } from 'framer-motion'
-import { Brain, Cpu, Zap, Shield, Users, Clock, LucideIcon } from 'lucide-react'
+import { Brain, Cpu, Zap, Shield, Users, Clock, type LucideIcon } from 'lucide-react'
 import { useTheme } from '../context/ThemeContext'
 import { contentApi } from '../lib/api'
 

@@ -61,7 +61,7 @@ const FloatingParticle = ({ delay = 0, duration = 20, size = 4 }: { delay?: numb
 export default function SneakHub() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [selectedShoe, setSelectedShoe] = useState(0);
-    const [wishlisted, setWishlisted] = useState({});
+    const [wishlisted, setWishlisted] = useState<Record<number, boolean>>({});
 
     const shoes = [
         {

@@ -1,4 +1,4 @@
-import { useState, useEffect, ReactNode } from 'react'
+import { useState, useEffect, type ReactNode } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Plus, Search, Edit2, Trash2, Eye, EyeOff, GripVertical, X, Save, RefreshCw } from 'lucide-react'
 import { useTheme } from '../../context/ThemeContext'
@@ -397,7 +397,7 @@ const ContentManager = ({ title, endpoint, fields, columns, itemName = 'item' }:
                                             />
                                         )}
 
-                                        {field.type === 'image' && formData[field.name] && (
+                                        {field.type === 'image' && !!formData[field.name] && (
                                             <img
                                                 src={String(formData[field.name])}
                                                 alt="Preview"
